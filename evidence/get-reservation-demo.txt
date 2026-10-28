@@ -1,0 +1,3 @@
+{"concert_id":"fontaines-dc-nyc","created_at":"2026-10-28T22:49:02.263690","quantity":1,"reservation_id":"a4d4b5a0-448c-4e48-ad77-55ef6ac10dbd","status":"rejected","ticket_type":"vip","updated_at":"2026-10-28T22:49:02.581124","user_id":"evidence-demo-sofia"}
+
+HTTP_STATUS=200

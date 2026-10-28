@@ -1,0 +1,244 @@
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:17:48,971 INFO Found credentials from IAM Role: c226290a5714694l17123136t1w037826834-LabEksNodeRole-GLbEFHg3GbSB
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:17:49,074 INFO Worker started. Queue: https://sqs.us-east-1.amazonaws.com/037826834406/concertpass-reservations.fifo
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:20:31,837 INFO f0c53c21-cf6d-4826-9798-cd8542180591: sold=0 requested=1 capacity=500
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:20:31,859 INFO f0c53c21-cf6d-4826-9798-cd8542180591: CONFIRMED
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:22:34,031 INFO 8040ba52-fdcf-4a1a-a29d-cc4e1059bcd6: sold=1 requested=1 capacity=500
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:22:34,040 INFO 8040ba52-fdcf-4a1a-a29d-cc4e1059bcd6: CONFIRMED
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:22:34,065 INFO b22a7f0c-37b2-474d-937b-83285c04dd47: sold=2 requested=1 capacity=500
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:22:34,075 INFO b22a7f0c-37b2-474d-937b-83285c04dd47: CONFIRMED
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:22:34,310 INFO a09dabe6-d45e-4905-a468-74706865fed0: sold=3 requested=1 capacity=500
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:22:34,320 INFO a09dabe6-d45e-4905-a468-74706865fed0: CONFIRMED
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:22:34,405 INFO 2cbd9b07-8c0c-4527-9cd3-f2dc6f85320e: sold=4 requested=1 capacity=500
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:22:34,414 INFO 2cbd9b07-8c0c-4527-9cd3-f2dc6f85320e: CONFIRMED
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:22:34,741 INFO 24ec0563-7d32-4301-bb4b-a8f52066d171: sold=5 requested=1 capacity=500
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:22:34,750 INFO 24ec0563-7d32-4301-bb4b-a8f52066d171: CONFIRMED
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:23:59,568 INFO 8890021d-eaae-42e7-b025-e7e1a1436248: sold=0 requested=1 capacity=10
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:23:59,577 INFO 8890021d-eaae-42e7-b025-e7e1a1436248: CONFIRMED
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:23:59,606 INFO 604300c8-50a4-48ee-80a4-964ca4eb49bb: sold=1 requested=1 capacity=10
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:23:59,615 INFO 604300c8-50a4-48ee-80a4-964ca4eb49bb: CONFIRMED
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:23:59,638 INFO ce49447b-d0e8-4b98-a13e-57c31ef637a0: sold=2 requested=1 capacity=10
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:23:59,647 INFO ce49447b-d0e8-4b98-a13e-57c31ef637a0: CONFIRMED
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:23:59,671 INFO cb1f6a1a-4f64-47aa-a51b-1cbb40935355: sold=3 requested=1 capacity=10
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:23:59,680 INFO cb1f6a1a-4f64-47aa-a51b-1cbb40935355: CONFIRMED
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:23:59,702 INFO 2b098919-3c45-4020-882a-487f240628ca: sold=4 requested=1 capacity=10
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:23:59,711 INFO 2b098919-3c45-4020-882a-487f240628ca: CONFIRMED
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:23:59,736 INFO 329d559e-b79c-4f94-9743-e596c49dc78a: sold=5 requested=1 capacity=10
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:23:59,745 INFO 329d559e-b79c-4f94-9743-e596c49dc78a: CONFIRMED
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:23:59,770 INFO d6b7eb3d-137e-4ae7-a9f4-a5b083d6bb54: sold=6 requested=1 capacity=10
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:23:59,780 INFO d6b7eb3d-137e-4ae7-a9f4-a5b083d6bb54: CONFIRMED
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:23:59,798 INFO f7251ed8-6ec7-4e1a-b21c-12b96d6640a2: sold=7 requested=1 capacity=10
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:23:59,807 INFO f7251ed8-6ec7-4e1a-b21c-12b96d6640a2: CONFIRMED
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:23:59,831 INFO 4d353b19-ea75-453a-8b5f-708bf56dc2a6: sold=8 requested=1 capacity=10
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:23:59,840 INFO 4d353b19-ea75-453a-8b5f-708bf56dc2a6: CONFIRMED
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:23:59,855 INFO 9cf460b2-551e-4077-b3d2-a7a8fc7b109d: sold=9 requested=1 capacity=10
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:23:59,865 INFO 9cf460b2-551e-4077-b3d2-a7a8fc7b109d: CONFIRMED
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:23:59,892 INFO 18c9d809-8211-4494-bd2d-108d022a728c: sold=10 requested=1 capacity=10
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:23:59,895 INFO 18c9d809-8211-4494-bd2d-108d022a728c: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:23:59,928 INFO bcf02ca7-b30d-4c84-9639-a963c4ec866a: sold=10 requested=1 capacity=10
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:23:59,931 INFO bcf02ca7-b30d-4c84-9639-a963c4ec866a: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:23:59,975 INFO c39c7999-9ee9-4298-8c13-d8544f3f9860: sold=10 requested=1 capacity=10
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:23:59,977 INFO c39c7999-9ee9-4298-8c13-d8544f3f9860: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:24:00,147 INFO c25a2351-ad33-411e-b709-e7f4c3ba1214: sold=10 requested=1 capacity=10
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:24:00,163 INFO c25a2351-ad33-411e-b709-e7f4c3ba1214: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:24:00,230 INFO 10ece0f1-54b7-434a-a3e9-49138e454b6e: sold=10 requested=1 capacity=10
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:24:00,233 INFO 10ece0f1-54b7-434a-a3e9-49138e454b6e: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:24:00,263 INFO e822023d-de0a-40fd-9f07-25a1935d307a: sold=10 requested=1 capacity=10
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:24:00,266 INFO e822023d-de0a-40fd-9f07-25a1935d307a: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:24:00,296 INFO 8d164d63-ce19-443f-87a4-299fb6d46fa5: sold=10 requested=1 capacity=10
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:24:00,299 INFO 8d164d63-ce19-443f-87a4-299fb6d46fa5: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:24:00,327 INFO e0c6e5e6-539a-4559-849e-7aae62c45f75: sold=10 requested=1 capacity=10
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:24:00,329 INFO e0c6e5e6-539a-4559-849e-7aae62c45f75: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:24:00,356 INFO 2a67f5f8-cf77-4a68-b364-d48ea669e54d: sold=10 requested=1 capacity=10
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:24:00,359 INFO 2a67f5f8-cf77-4a68-b364-d48ea669e54d: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:24:00,387 INFO 5058e562-f938-4106-b288-262c5ead3f6b: sold=10 requested=1 capacity=10
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:24:00,390 INFO 5058e562-f938-4106-b288-262c5ead3f6b: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:24:00,415 INFO 5ae4005c-d19f-4b25-8701-0fdd5060a016: sold=10 requested=1 capacity=10
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:24:00,418 INFO 5ae4005c-d19f-4b25-8701-0fdd5060a016: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:24:00,447 INFO bab10c22-6e24-4213-8019-151adb42d058: sold=10 requested=1 capacity=10
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:24:00,449 INFO bab10c22-6e24-4213-8019-151adb42d058: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:24:00,477 INFO 24e6627c-076c-40fb-9452-2ddaf53222e9: sold=10 requested=1 capacity=10
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:24:00,479 INFO 24e6627c-076c-40fb-9452-2ddaf53222e9: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:24:00,507 INFO e9059b47-dea6-42c0-8c8a-d4fe72ec3f5d: sold=10 requested=1 capacity=10
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:24:00,509 INFO e9059b47-dea6-42c0-8c8a-d4fe72ec3f5d: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:24:00,581 INFO 2b0ca1a9-71d4-401f-a537-d100e4cebe5a: sold=10 requested=1 capacity=10
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:24:00,583 INFO 2b0ca1a9-71d4-401f-a537-d100e4cebe5a: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:24:00,612 INFO 41f4a25e-ceb4-46e9-90e2-6e8d22a6c8d7: sold=10 requested=1 capacity=10
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:24:00,614 INFO 41f4a25e-ceb4-46e9-90e2-6e8d22a6c8d7: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:24:00,713 INFO 60b9bb1b-a4e8-476b-bce1-c4d77acda14f: sold=10 requested=1 capacity=10
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:24:00,715 INFO 60b9bb1b-a4e8-476b-bce1-c4d77acda14f: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:24:00,747 INFO 1ec19f6d-83ed-4f8c-97cb-699cdfd3a954: sold=10 requested=1 capacity=10
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:24:00,750 INFO 1ec19f6d-83ed-4f8c-97cb-699cdfd3a954: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:24:00,775 INFO 6094f19b-85e5-42be-a48e-e750f84c21b7: sold=10 requested=1 capacity=10
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:24:00,778 INFO 6094f19b-85e5-42be-a48e-e750f84c21b7: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:24:00,819 INFO ecadb360-4152-4ad0-86c2-1b8e20a7fa1b: sold=10 requested=1 capacity=10
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:24:00,821 INFO ecadb360-4152-4ad0-86c2-1b8e20a7fa1b: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:41,253 INFO 0ed2bedd-80bb-40b4-af64-3ce4cafa22a5: sold=0 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:41,262 INFO 0ed2bedd-80bb-40b4-af64-3ce4cafa22a5: CONFIRMED
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:41,545 INFO bdf951f1-3100-47f5-ac87-7831457647b0: sold=7 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:41,554 INFO bdf951f1-3100-47f5-ac87-7831457647b0: CONFIRMED
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:41,570 INFO 7cea2bc1-dde6-495d-81c9-3271d1eb0dde: sold=8 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:41,579 INFO 7cea2bc1-dde6-495d-81c9-3271d1eb0dde: CONFIRMED
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:41,597 INFO 0bd38e16-4227-46e9-be6e-c735932ec7aa: sold=9 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:41,606 INFO 0bd38e16-4227-46e9-be6e-c735932ec7aa: CONFIRMED
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:41,619 INFO 96436d9d-7c9c-476d-9c2d-6f128b9105f1: sold=10 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:41,628 INFO 96436d9d-7c9c-476d-9c2d-6f128b9105f1: CONFIRMED
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:41,644 INFO 541f8253-6ec8-429f-b747-ac890279d2f8: sold=11 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:41,653 INFO 541f8253-6ec8-429f-b747-ac890279d2f8: CONFIRMED
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:41,887 INFO 1e598788-e0dd-4493-82c1-e55871d507df: sold=20 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:41,899 INFO 1e598788-e0dd-4493-82c1-e55871d507df: CONFIRMED
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:41,916 INFO 039ba8a4-179b-4966-a4b4-c760549489f8: sold=21 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:41,925 INFO 039ba8a4-179b-4966-a4b4-c760549489f8: CONFIRMED
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:41,943 INFO 349d3c3b-b9bf-443e-8ac0-fd0c6ab07daa: sold=22 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:41,953 INFO 349d3c3b-b9bf-443e-8ac0-fd0c6ab07daa: CONFIRMED
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:41,970 INFO ec69f95f-b41f-4c57-832d-20a7fcfd2fa9: sold=23 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:41,979 INFO ec69f95f-b41f-4c57-832d-20a7fcfd2fa9: CONFIRMED
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:42,322 INFO 9f82cea0-abd5-49e1-a8d5-a9ad3268c339: sold=32 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:42,332 INFO 9f82cea0-abd5-49e1-a8d5-a9ad3268c339: CONFIRMED
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:42,347 INFO 2f3dcc09-f2a0-4468-98ae-97b23f496242: sold=33 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:42,356 INFO 2f3dcc09-f2a0-4468-98ae-97b23f496242: CONFIRMED
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:42,371 INFO 859a8f1a-aa2f-4355-a668-f959d6676aab: sold=34 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:42,380 INFO 859a8f1a-aa2f-4355-a668-f959d6676aab: CONFIRMED
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:42,395 INFO bdfbea0c-edf1-4f95-a5c8-825a14b194fd: sold=35 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:42,405 INFO bdfbea0c-edf1-4f95-a5c8-825a14b194fd: CONFIRMED
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:42,420 INFO 8c0de35f-36fc-438c-be92-040bfa239006: sold=36 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:42,429 INFO 8c0de35f-36fc-438c-be92-040bfa239006: CONFIRMED
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:42,445 INFO 016b2b6a-d250-4ba1-84f5-d1d561c7d9bc: sold=37 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:42,455 INFO 016b2b6a-d250-4ba1-84f5-d1d561c7d9bc: CONFIRMED
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:42,738 INFO 09ac4201-1755-4808-87ef-c7177ab69441: sold=48 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:42,748 INFO 09ac4201-1755-4808-87ef-c7177ab69441: CONFIRMED
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:42,763 INFO e6b9991d-6b99-4a86-8fd0-fb228537d0f2: sold=49 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:42,772 INFO e6b9991d-6b99-4a86-8fd0-fb228537d0f2: CONFIRMED
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:42,787 INFO aebb3c06-161d-4e29-aa2d-bfd276337248: sold=50 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:42,789 INFO aebb3c06-161d-4e29-aa2d-bfd276337248: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:42,805 INFO 158970bd-96fd-4548-b0eb-c271815e4b65: sold=50 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:42,807 INFO 158970bd-96fd-4548-b0eb-c271815e4b65: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:42,943 INFO c28bed50-456c-42e5-add2-8150d1ad3963: sold=50 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:42,945 INFO c28bed50-456c-42e5-add2-8150d1ad3963: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:42,960 INFO 4e292187-7d00-4252-b808-ec9edba938c5: sold=50 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:42,962 INFO 4e292187-7d00-4252-b808-ec9edba938c5: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:43,079 INFO 34da715b-9b58-4055-b8d4-8fc28ace5244: sold=50 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:43,081 INFO 34da715b-9b58-4055-b8d4-8fc28ace5244: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:43,163 INFO 5c092fcc-f68c-4c33-baea-1d613da31f2f: sold=50 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:43,166 INFO 5c092fcc-f68c-4c33-baea-1d613da31f2f: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:43,275 INFO dc90a2e7-7428-44f2-af27-a4addb39c18a: sold=50 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:43,277 INFO dc90a2e7-7428-44f2-af27-a4addb39c18a: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:43,357 INFO b364783c-e362-489f-8015-d81a1eaf0181: sold=50 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:43,360 INFO b364783c-e362-489f-8015-d81a1eaf0181: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:43,445 INFO 6d5022b6-8cfd-4575-83a7-5b4391078627: sold=50 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:43,448 INFO 6d5022b6-8cfd-4575-83a7-5b4391078627: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:43,535 INFO 032b1982-77ba-4187-956c-44307c97dbd2: sold=50 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:30:43,540 INFO 032b1982-77ba-4187-956c-44307c97dbd2: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:38:20,453 INFO 2eae6518-b697-4286-bcc7-8f41b8a21d53: sold=7 requested=1 capacity=500
+[pod/ticket-worker-5475f4d544-2l76b/ticket-worker] 2026-10-28 21:38:20,462 INFO 2eae6518-b697-4286-bcc7-8f41b8a21d53: CONFIRMED
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:29:47,313 INFO Found credentials from IAM Role: c226290a5714694l17123136t1w037826834-LabEksNodeRole-GLbEFHg3GbSB
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:29:47,414 INFO Worker started. Queue: https://sqs.us-east-1.amazonaws.com/037826834406/concertpass-reservations.fifo
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:41,343 INFO cfe56337-1be7-4c03-948d-8e4a4c3f29ea: sold=1 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:41,354 INFO cfe56337-1be7-4c03-948d-8e4a4c3f29ea: CONFIRMED
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:41,374 INFO 0c92896c-7928-4fea-b08e-54eaa8185c08: sold=2 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:41,383 INFO 0c92896c-7928-4fea-b08e-54eaa8185c08: CONFIRMED
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:41,670 INFO 849b1d52-3e54-46c7-a4f0-c576f82009bd: sold=12 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:41,679 INFO 849b1d52-3e54-46c7-a4f0-c576f82009bd: CONFIRMED
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:41,694 INFO 3d04b622-8c21-4b58-a79e-f0a0f214dede: sold=13 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:41,703 INFO 3d04b622-8c21-4b58-a79e-f0a0f214dede: CONFIRMED
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:41,718 INFO 70e5d5db-892d-407e-abdb-1aa68ac965a3: sold=14 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:41,727 INFO 70e5d5db-892d-407e-abdb-1aa68ac965a3: CONFIRMED
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:41,751 INFO 5cd82df5-3535-4aed-ac4f-2620b1a3f701: sold=15 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:41,759 INFO 5cd82df5-3535-4aed-ac4f-2620b1a3f701: CONFIRMED
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:41,997 INFO 26f6906d-adff-453b-b3cb-7987e0a93fb5: sold=24 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:42,012 INFO 26f6906d-adff-453b-b3cb-7987e0a93fb5: CONFIRMED
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:42,029 INFO 63edf952-4c89-4722-80c1-73f039b5b3fd: sold=25 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:42,049 INFO 63edf952-4c89-4722-80c1-73f039b5b3fd: CONFIRMED
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:42,067 INFO 42b83ff6-d661-4e2a-bd3a-eb5a410ed9d8: sold=26 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:42,080 INFO 42b83ff6-d661-4e2a-bd3a-eb5a410ed9d8: CONFIRMED
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:42,098 INFO 84f6efc9-4000-4ce1-8ed2-e5387fc1640e: sold=27 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:42,109 INFO 84f6efc9-4000-4ce1-8ed2-e5387fc1640e: CONFIRMED
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:42,474 INFO 2bc7eabc-3bd3-482b-85b1-29093ec6e5fd: sold=38 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:42,483 INFO 2bc7eabc-3bd3-482b-85b1-29093ec6e5fd: CONFIRMED
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:42,500 INFO bc7d29f0-cbd7-4704-ac2a-af72912a5e23: sold=39 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:42,511 INFO bc7d29f0-cbd7-4704-ac2a-af72912a5e23: CONFIRMED
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:42,530 INFO 79dd5295-f2e4-4fc6-a735-705e9720dd38: sold=40 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:42,540 INFO 79dd5295-f2e4-4fc6-a735-705e9720dd38: CONFIRMED
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:42,558 INFO a5d86fb5-cbd0-4ad2-a307-1e857605bcf4: sold=41 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:42,567 INFO a5d86fb5-cbd0-4ad2-a307-1e857605bcf4: CONFIRMED
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:42,583 INFO 4ade1e36-a5dc-48c7-81f7-4da5d43fbc76: sold=42 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:42,592 INFO 4ade1e36-a5dc-48c7-81f7-4da5d43fbc76: CONFIRMED
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:42,824 INFO 9530feb0-bd02-42ae-b529-9b7bb177739b: sold=50 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:42,826 INFO 9530feb0-bd02-42ae-b529-9b7bb177739b: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:42,841 INFO a05fb6f8-8a40-4307-ae40-1c39a1eca7e6: sold=50 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:42,843 INFO a05fb6f8-8a40-4307-ae40-1c39a1eca7e6: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:42,862 INFO ce0818fc-8dfe-4174-805b-9014b42ecb38: sold=50 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:42,864 INFO ce0818fc-8dfe-4174-805b-9014b42ecb38: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:43,024 INFO 6d68f2d0-f2f9-436d-80c7-6d3e366905b6: sold=50 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:43,027 INFO 6d68f2d0-f2f9-436d-80c7-6d3e366905b6: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:43,107 INFO 2626f530-4a89-44a9-a937-09ab73bdde0d: sold=50 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:43,109 INFO 2626f530-4a89-44a9-a937-09ab73bdde0d: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:43,191 INFO 57859adf-c9a9-4251-939e-3efee6b89ab6: sold=50 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:43,194 INFO 57859adf-c9a9-4251-939e-3efee6b89ab6: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:43,303 INFO eb52b688-1215-4382-8162-c15ccf6d5e6f: sold=50 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:43,305 INFO eb52b688-1215-4382-8162-c15ccf6d5e6f: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:43,385 INFO c140c327-2f23-4e26-9ced-7313b01b372d: sold=50 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:43,387 INFO c140c327-2f23-4e26-9ced-7313b01b372d: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:43,474 INFO 4ebddf74-506b-4604-bcc9-151902c27155: sold=50 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:43,476 INFO 4ebddf74-506b-4604-bcc9-151902c27155: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:43,568 INFO 6cc26f9c-b111-477f-b227-0cfb44daecaa: sold=50 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:30:43,571 INFO 6cc26f9c-b111-477f-b227-0cfb44daecaa: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:38:20,816 INFO 15c3b7e8-8fac-4f33-b65e-48ebcaf556a9: sold=8 requested=1 capacity=500
+[pod/ticket-worker-5475f4d544-qjtxx/ticket-worker] 2026-10-28 21:38:20,825 INFO 15c3b7e8-8fac-4f33-b65e-48ebcaf556a9: CONFIRMED
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:29:49,036 INFO Found credentials from IAM Role: c226290a5714694l17123136t1w037826834-LabEksNodeRole-GLbEFHg3GbSB
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:29:49,143 INFO Worker started. Queue: https://sqs.us-east-1.amazonaws.com/037826834406/concertpass-reservations.fifo
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:41,439 INFO af5c569b-a577-4c41-b85a-77aad33a45dd: sold=3 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:41,449 INFO af5c569b-a577-4c41-b85a-77aad33a45dd: CONFIRMED
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:41,466 INFO e458f7c1-bca7-468a-9d27-7f79e91712c7: sold=4 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:41,476 INFO e458f7c1-bca7-468a-9d27-7f79e91712c7: CONFIRMED
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:41,492 INFO 7ead706d-4d84-4835-94e9-f5fd2418633b: sold=5 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:41,501 INFO 7ead706d-4d84-4835-94e9-f5fd2418633b: CONFIRMED
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:41,519 INFO d73affc1-1574-4702-84c3-461924c03d94: sold=6 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:41,528 INFO d73affc1-1574-4702-84c3-461924c03d94: CONFIRMED
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:41,778 INFO 9443a577-b9f7-4cf6-9183-1bd52bbe5e0c: sold=16 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:41,786 INFO 9443a577-b9f7-4cf6-9183-1bd52bbe5e0c: CONFIRMED
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:41,801 INFO dd977ed2-ca10-40a3-b6bb-27abf63ffa14: sold=17 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:41,810 INFO dd977ed2-ca10-40a3-b6bb-27abf63ffa14: CONFIRMED
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:41,827 INFO 8bda0f5c-0cee-4eff-a6a1-201fa409c79f: sold=18 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:41,836 INFO 8bda0f5c-0cee-4eff-a6a1-201fa409c79f: CONFIRMED
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:41,856 INFO 46e1ccd0-840f-4b87-919f-4d965960112d: sold=19 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:41,869 INFO 46e1ccd0-840f-4b87-919f-4d965960112d: CONFIRMED
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:42,126 INFO 410e5e44-ed29-4826-bd23-0713b49e30d5: sold=28 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:42,138 INFO 410e5e44-ed29-4826-bd23-0713b49e30d5: CONFIRMED
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:42,161 INFO 28796eef-1191-4d66-8c1f-25787c760d3b: sold=29 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:42,172 INFO 28796eef-1191-4d66-8c1f-25787c760d3b: CONFIRMED
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:42,190 INFO 2228dbb8-bebe-43cd-b604-23927bd07b37: sold=30 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:42,202 INFO 2228dbb8-bebe-43cd-b604-23927bd07b37: CONFIRMED
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:42,223 INFO f0389278-ca1f-4cc9-b000-4497b0b09170: sold=31 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:42,234 INFO f0389278-ca1f-4cc9-b000-4497b0b09170: CONFIRMED
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:42,610 INFO 7dad4d9c-8b32-4c55-9a71-5d96a36c9813: sold=43 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:42,619 INFO 7dad4d9c-8b32-4c55-9a71-5d96a36c9813: CONFIRMED
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:42,637 INFO 48c892f0-266b-4e43-9e84-999b7119138a: sold=44 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:42,646 INFO 48c892f0-266b-4e43-9e84-999b7119138a: CONFIRMED
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:42,664 INFO f2b48064-d78b-4d84-b258-9d88b7d13041: sold=45 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:42,673 INFO f2b48064-d78b-4d84-b258-9d88b7d13041: CONFIRMED
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:42,688 INFO 855a67d4-d97c-48eb-815a-bd100f84c399: sold=46 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:42,697 INFO 855a67d4-d97c-48eb-815a-bd100f84c399: CONFIRMED
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:42,712 INFO b5f56bbf-e212-4b8c-9af8-ea1d09f8d7b9: sold=47 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:42,721 INFO b5f56bbf-e212-4b8c-9af8-ea1d09f8d7b9: CONFIRMED
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:42,884 INFO e47e33be-1f9a-49fc-8b42-f63db4cbef70: sold=50 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:42,888 INFO e47e33be-1f9a-49fc-8b42-f63db4cbef70: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:42,903 INFO 5d15bbf1-77a2-4fb4-98da-c7c270bb9d81: sold=50 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:42,908 INFO 5d15bbf1-77a2-4fb4-98da-c7c270bb9d81: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:42,924 INFO 3960c997-b733-4d54-805f-b67a536a1b7a: sold=50 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:42,929 INFO 3960c997-b733-4d54-805f-b67a536a1b7a: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:43,054 INFO 1b5bab0f-b670-4f47-8d4a-7c75d93a47b8: sold=50 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:43,058 INFO 1b5bab0f-b670-4f47-8d4a-7c75d93a47b8: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:43,138 INFO 6b81b395-e5d9-427d-91cd-6da8e2e9d3c9: sold=50 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:43,142 INFO 6b81b395-e5d9-427d-91cd-6da8e2e9d3c9: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:43,251 INFO 2bf26dba-c936-48f5-b25e-5586e8392ce1: sold=50 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:43,255 INFO 2bf26dba-c936-48f5-b25e-5586e8392ce1: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:43,334 INFO 8035bcef-d5e6-4efc-b794-38185af58d8d: sold=50 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:43,338 INFO 8035bcef-d5e6-4efc-b794-38185af58d8d: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:43,415 INFO 69819cc4-8e06-4dac-8968-a577f3462b37: sold=50 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:43,420 INFO 69819cc4-8e06-4dac-8968-a577f3462b37: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:43,502 INFO 21846a5e-e76c-460c-9168-5a46dc4e9ce9: sold=50 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:43,507 INFO 21846a5e-e76c-460c-9168-5a46dc4e9ce9: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:43,600 INFO d047122c-4408-4651-8ab2-1f1b41e0fa16: sold=50 requested=1 capacity=50
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:30:43,605 INFO d047122c-4408-4651-8ab2-1f1b41e0fa16: REJECTED because capacity is full
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:38:20,176 INFO 1a7d8575-e75f-4425-90e1-82800b9e8bcb: sold=6 requested=1 capacity=500
+[pod/ticket-worker-5475f4d544-mbj6x/ticket-worker] 2026-10-28 21:38:20,185 INFO 1a7d8575-e75f-4425-90e1-82800b9e8bcb: CONFIRMED

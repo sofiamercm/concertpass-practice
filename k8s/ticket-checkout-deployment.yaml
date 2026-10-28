@@ -1,0 +1,21 @@
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ticket-checkout
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ticket-checkout
+  template:
+    metadata:
+      labels:
+        app: ticket-checkout
+    spec:
+      containers:
+        - name: ticket-checkout
+          image: concertpass-practice-checkout:local
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8080

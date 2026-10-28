@@ -1,0 +1,25 @@
+CONCERTPASS - INFRASTRUCTURE EVIDENCE
+Wed Oct 28 16:15:03 CST 2026
+
+=== EKS NODES ===
+NAME                             STATUS   ROLES    AGE    VERSION                INTERNAL-IP      EXTERNAL-IP      OS-IMAGE                        KERNEL-VERSION                     CONTAINER-RUNTIME
+ip-192-168-26-55.ec2.internal    Ready    <none>   111m   v1.34.12-eks-577a51e   192.168.26.55    3.88.109.28      Amazon Linux 2023.12.20261026   6.12.113-138.209.amzn2023.x86_64   containerd://2.3.7+unknown
+ip-192-168-40-137.ec2.internal   Ready    <none>   111m   v1.34.12-eks-577a51e   192.168.40.137   100.30.185.190   Amazon Linux 2023.12.20261026   6.12.113-138.209.amzn2023.x86_64   containerd://2.3.7+unknown
+
+=== DEPLOYMENTS ===
+NAME              READY   UP-TO-DATE   AVAILABLE   AGE
+ticket-api        1/1     1            1           57m
+ticket-checkout   1/1     1            1           57m
+ticket-worker     3/3     3            3           57m
+
+=== SERVICES ===
+NAME              TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+kubernetes        ClusterIP   10.100.0.1       <none>        443/TCP          117m
+ticket-api        NodePort    10.100.201.143   <none>        8080:30080/TCP   57m
+ticket-checkout   ClusterIP   10.100.94.183    <none>        8080/TCP         57m
+
+=== DEPLOYMENT IMAGES ===
+DEPLOYMENT        IMAGE
+ticket-api        037826834406.dkr.ecr.us-east-1.amazonaws.com/ticket-api:latest
+ticket-checkout   037826834406.dkr.ecr.us-east-1.amazonaws.com/ticket-checkout:latest
+ticket-worker     037826834406.dkr.ecr.us-east-1.amazonaws.com/ticket-worker:latest

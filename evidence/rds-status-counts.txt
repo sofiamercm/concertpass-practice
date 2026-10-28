@@ -1,0 +1,6 @@
+concert_id | ticket_type | status | reservations | tickets
+fontaines-dc-nyc | vip | confirmed | 10 | 10
+fontaines-dc-nyc | vip | rejected | 20 | 20
+rex-orange-county-nyc | general | confirmed | 9 | 9
+rex-orange-county-nyc | vip | confirmed | 50 | 50
+rex-orange-county-nyc | vip | rejected | 30 | 30

@@ -1,0 +1,27 @@
+CONCERTPASS - FINAL RUNTIME EVIDENCE
+Date: Wed Oct 28 16:56:32 CST 2026
+
+=== EKS NODES ===
+NAME                             STATUS   ROLES    AGE    VERSION
+ip-192-168-26-55.ec2.internal    Ready    <none>   153m   v1.34.12-eks-577a51e
+ip-192-168-40-137.ec2.internal   Ready    <none>   153m   v1.34.12-eks-577a51e
+
+=== DEPLOYMENTS ===
+NAME              READY   UP-TO-DATE   AVAILABLE   AGE
+ticket-api        1/1     1            1           98m
+ticket-checkout   1/1     1            1           98m
+ticket-worker     3/3     3            3           98m
+
+=== WORKER PODS ===
+NAME                             READY   STATUS    RESTARTS   AGE
+ticket-worker-5475f4d544-6jj6v   1/1     Running   0          2m14s
+ticket-worker-5475f4d544-gshfk   1/1     Running   0          2m14s
+ticket-worker-5475f4d544-z4b5f   1/1     Running   0          2m15s
+
+=== RESERVATION ASYNC FLOW ===
+{"reservation_id":"1223ba96-427d-40e8-b874-fa2a083e5517","status":"pending"}
+
+HTTP_STATUS=202
+{"concert_id":"cafe-tacvba-cdmx","created_at":"2026-10-28T22:52:54.387216","quantity":1,"reservation_id":"1223ba96-427d-40e8-b874-fa2a083e5517","status":"confirmed","ticket_type":"floor","updated_at":"2026-10-28T22:52:54.648636","user_id":"sqs-evidence-sofia"}
+
+HTTP_STATUS=200

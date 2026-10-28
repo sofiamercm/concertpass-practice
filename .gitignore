@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+.AppleDouble
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+.aws/
+*.pem
+*.key
+credentials
+secrets.*
+
+# Local logs and generated files
+*.log
+scripts/.state
+scripts/config.sh.bak
+
+# Backups
+README.backup.md
+REPORT.backup.md
+*.bak

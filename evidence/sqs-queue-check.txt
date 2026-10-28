@@ -1,0 +1,8 @@
+{
+    "Attributes": {
+        "FifoQueue": "true",
+        "VisibilityTimeout": "60",
+        "ApproximateNumberOfMessages": "0",
+        "ApproximateNumberOfMessagesNotVisible": "0"
+    }
+}

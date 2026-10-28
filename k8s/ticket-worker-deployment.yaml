@@ -1,0 +1,43 @@
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ticket-worker
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ticket-worker
+  template:
+    metadata:
+      labels:
+        app: ticket-worker
+    spec:
+      containers:
+        - name: ticket-worker
+          image: concertpass-practice-worker:local
+          imagePullPolicy: IfNotPresent
+          envFrom:
+            - configMapRef:
+                name: concertpass-config
+          env:
+            - name: SQS_QUEUE_URL
+              valueFrom:
+                secretKeyRef:
+                  name: concertpass-aws-secret
+                  key: SQS_QUEUE_URL
+            - name: DB_HOST
+              valueFrom:
+                secretKeyRef:
+                  name: concertpass-db-secret
+                  key: DB_HOST
+            - name: DB_USER
+              valueFrom:
+                secretKeyRef:
+                  name: concertpass-db-secret
+                  key: DB_USER
+            - name: DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: concertpass-db-secret
+                  key: DB_PASSWORD

@@ -1,0 +1,14 @@
+[
+  {
+    "status": 202,
+    "body": "{\"reservation_id\":\"1a7d8575-e75f-4425-90e1-82800b9e8bcb\",\"status\":\"pending\"}\n"
+  },
+  {
+    "status": 202,
+    "body": "{\"reservation_id\":\"2eae6518-b697-4286-bcc7-8f41b8a21d53\",\"status\":\"pending\"}\n"
+  },
+  {
+    "status": 202,
+    "body": "{\"reservation_id\":\"15c3b7e8-8fac-4f33-b65e-48ebcaf556a9\",\"status\":\"pending\"}\n"
+  }
+]

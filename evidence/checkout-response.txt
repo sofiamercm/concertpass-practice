@@ -1,0 +1,3 @@
+{"quantity":1,"reservation_id":"f0c53c21-cf6d-4826-9798-cd8542180591","status":"authorized"}
+
+HTTP_STATUS=200

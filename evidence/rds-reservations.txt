@@ -1,0 +1,26 @@
+=== RDS CONNECTION ===
+Database: concertpass
+PostgreSQL: PostgreSQL 16.13 on x86_64-pc-linux-gnu
+
+=== RESERVATIONS SCHEMA ===
+('reservation_id', 'uuid', 'NO')
+('concert_id', 'character varying', 'NO')
+('user_id', 'character varying', 'NO')
+('ticket_type', 'character varying', 'NO')
+('quantity', 'integer', 'NO')
+('status', 'character varying', 'NO')
+('created_at', 'timestamp without time zone', 'NO')
+('updated_at', 'timestamp without time zone', 'NO')
+
+=== RESERVATION RECORDS ===
+Columns: ['reservation_id', 'concert_id', 'user_id', 'ticket_type', 'quantity', 'status', 'created_at', 'updated_at']
+{'reservation_id': 'f0c53c21-cf6d-4826-9798-cd8542180591', 'concert_id': 'rex-orange-county-nyc', 'user_id': 'test-user-1793222431', 'ticket_type': 'general', 'quantity': 1, 'status': 'confirmed', 'created_at': datetime.datetime(2026, 10, 28, 21, 20, 31, 694176), 'updated_at': datetime.datetime(2026, 10, 28, 21, 20, 31, 856645)}
+{'reservation_id': '0ed2bedd-80bb-40b4-af64-3ce4cafa22a5', 'concert_id': 'rex-orange-county-nyc', 'user_id': 'load-test-1793223040716325000-4', 'ticket_type': 'vip', 'quantity': 1, 'status': 'confirmed', 'created_at': datetime.datetime(2026, 10, 28, 21, 30, 41, 114712), 'updated_at': datetime.datetime(2026, 10, 28, 21, 30, 41, 260626)}
+{'reservation_id': '8040ba52-fdcf-4a1a-a29d-cc4e1059bcd6', 'concert_id': 'rex-orange-county-nyc', 'user_id': 'load-test-1793222553550719000-0', 'ticket_type': 'general', 'quantity': 1, 'status': 'confirmed', 'created_at': datetime.datetime(2026, 10, 28, 21, 22, 33, 883240), 'updated_at': datetime.datetime(2026, 10, 28, 21, 22, 34, 38909)}
+{'reservation_id': 'b22a7f0c-37b2-474d-937b-83285c04dd47', 'concert_id': 'rex-orange-county-nyc', 'user_id': 'load-test-1793222553550857000-1', 'ticket_type': 'general', 'quantity': 1, 'status': 'confirmed', 'created_at': datetime.datetime(2026, 10, 28, 21, 22, 33, 977047), 'updated_at': datetime.datetime(2026, 10, 28, 21, 22, 34, 72996)}
+{'reservation_id': 'a09dabe6-d45e-4905-a468-74706865fed0', 'concert_id': 'rex-orange-county-nyc', 'user_id': 'load-test-1793222553971388000-2', 'ticket_type': 'general', 'quantity': 1, 'status': 'confirmed', 'created_at': datetime.datetime(2026, 10, 28, 21, 22, 34, 271307), 'updated_at': datetime.datetime(2026, 10, 28, 21, 22, 34, 317990)}
+{'reservation_id': 'cfe56337-1be7-4c03-948d-8e4a4c3f29ea', 'concert_id': 'rex-orange-county-nyc', 'user_id': 'load-test-1793223040716423000-7', 'ticket_type': 'vip', 'quantity': 1, 'status': 'confirmed', 'created_at': datetime.datetime(2026, 10, 28, 21, 30, 41, 190329), 'updated_at': datetime.datetime(2026, 10, 28, 21, 30, 41, 351790)}
+{'reservation_id': '2cbd9b07-8c0c-4527-9cd3-f2dc6f85320e', 'concert_id': 'rex-orange-county-nyc', 'user_id': 'load-test-1793222554059729000-3', 'ticket_type': 'general', 'quantity': 1, 'status': 'confirmed', 'created_at': datetime.datetime(2026, 10, 28, 21, 22, 34, 371364), 'updated_at': datetime.datetime(2026, 10, 28, 21, 22, 34, 412081)}
+{'reservation_id': '24ec0563-7d32-4301-bb4b-a8f52066d171', 'concert_id': 'rex-orange-county-nyc', 'user_id': 'load-test-1793222554299484000-4', 'ticket_type': 'general', 'quantity': 1, 'status': 'confirmed', 'created_at': datetime.datetime(2026, 10, 28, 21, 22, 34, 708263), 'updated_at': datetime.datetime(2026, 10, 28, 21, 22, 34, 748578)}
+{'reservation_id': '0c92896c-7928-4fea-b08e-54eaa8185c08', 'concert_id': 'rex-orange-county-nyc', 'user_id': 'load-test-1793223040717801000-14', 'ticket_type': 'vip', 'quantity': 1, 'status': 'confirmed', 'created_at': datetime.datetime(2026, 10, 28, 21, 30, 41, 233385), 'updated_at': datetime.datetime(2026, 10, 28, 21, 30, 41, 381461)}
+{'reservation_id': '8890021d-eaae-42e7-b025-e7e1a1436248', 'concert_id': 'fontaines-dc-nyc', 'user_id': 'load-test-1793222639125431000-3', 'ticket_type': 'vip', 'quantity': 1, 'status': 'confirmed', 'created_at': datetime.datetime(2026, 10, 28, 21, 23, 59, 484015), 'updated_at': datetime.datetime(2026, 10, 28, 21, 23, 59, 575084)}

@@ -1,0 +1,44 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ticket-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ticket-api
+  template:
+    metadata:
+      labels:
+        app: ticket-api
+    spec:
+      containers:
+        - name: ticket-api
+          image: concertpass-practice-api:local
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8080
+          envFrom:
+            - configMapRef:
+                name: concertpass-config
+          env:
+            - name: SQS_QUEUE_URL
+              valueFrom:
+                secretKeyRef:
+                  name: concertpass-aws-secret
+                  key: SQS_QUEUE_URL
+            - name: DB_HOST
+              valueFrom:
+                secretKeyRef:
+                  name: concertpass-db-secret
+                  key: DB_HOST
+            - name: DB_USER
+              valueFrom:
+                secretKeyRef:
+                  name: concertpass-db-secret
+                  key: DB_USER
+            - name: DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: concertpass-db-secret
+                  key: DB_PASSWORD

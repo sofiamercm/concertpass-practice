@@ -1,0 +1,3 @@
+{"reservation_id":"1223ba96-427d-40e8-b874-fa2a083e5517","status":"pending"}
+
+HTTP_STATUS=202

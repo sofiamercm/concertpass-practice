@@ -1,0 +1,41 @@
+=== DATE ===
+Wed Oct 28 16:44:19 CST 2026
+
+=== EKS NODES ===
+NAME                             STATUS   ROLES    AGE    VERSION                INTERNAL-IP      EXTERNAL-IP      OS-IMAGE                        KERNEL-VERSION                     CONTAINER-RUNTIME
+ip-192-168-26-55.ec2.internal    Ready    <none>   141m   v1.34.12-eks-577a51e   192.168.26.55    3.88.109.28      Amazon Linux 2023.12.20261026   6.12.113-138.209.amzn2023.x86_64   containerd://2.3.7+unknown
+ip-192-168-40-137.ec2.internal   Ready    <none>   141m   v1.34.12-eks-577a51e   192.168.40.137   100.30.185.190   Amazon Linux 2023.12.20261026   6.12.113-138.209.amzn2023.x86_64   containerd://2.3.7+unknown
+
+=== PODS ===
+NAME                               READY   STATUS    RESTARTS   AGE   IP               NODE                             NOMINATED NODE   READINESS GATES
+ticket-api-88c45fc99-vg42n         1/1     Running   0          86m   192.168.39.48    ip-192-168-40-137.ec2.internal   <none>           <none>
+ticket-checkout-844569bcfb-j9bcd   1/1     Running   0          86m   192.168.1.59     ip-192-168-26-55.ec2.internal    <none>           <none>
+ticket-worker-5475f4d544-2l76b     1/1     Running   0          86m   192.168.56.225   ip-192-168-40-137.ec2.internal   <none>           <none>
+ticket-worker-5475f4d544-mbj6x     1/1     Running   0          74m   192.168.27.155   ip-192-168-26-55.ec2.internal    <none>           <none>
+ticket-worker-5475f4d544-qjtxx     1/1     Running   0          74m   192.168.51.69    ip-192-168-40-137.ec2.internal   <none>           <none>
+
+=== SERVICES ===
+NAME              TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+kubernetes        ClusterIP   10.100.0.1       <none>        443/TCP          146m
+ticket-api        NodePort    10.100.201.143   <none>        8080:30080/TCP   86m
+ticket-checkout   ClusterIP   10.100.94.183    <none>        8080/TCP         86m
+
+=== DEPLOYMENTS ===
+NAME              READY   UP-TO-DATE   AVAILABLE   AGE   CONTAINERS        IMAGES                                                                SELECTOR
+ticket-api        1/1     1            1           86m   ticket-api        037826834406.dkr.ecr.us-east-1.amazonaws.com/ticket-api:latest        app=ticket-api
+ticket-checkout   1/1     1            1           86m   ticket-checkout   037826834406.dkr.ecr.us-east-1.amazonaws.com/ticket-checkout:latest   app=ticket-checkout
+ticket-worker     3/3     3            3           86m   ticket-worker     037826834406.dkr.ecr.us-east-1.amazonaws.com/ticket-worker:latest     app=ticket-worker
+
+=== DEPLOYMENT IMAGES ===
+DEPLOYMENT        IMAGES
+ticket-api        037826834406.dkr.ecr.us-east-1.amazonaws.com/ticket-api:latest
+ticket-checkout   037826834406.dkr.ecr.us-east-1.amazonaws.com/ticket-checkout:latest
+ticket-worker     037826834406.dkr.ecr.us-east-1.amazonaws.com/ticket-worker:latest
+
+=== LOCAL KUBERNETES MANIFESTS ===
+./k8s/ticket-api-service.yaml
+./k8s/concertpass-config.yaml
+./k8s/ticket-checkout-deployment.yaml
+./k8s/ticket-worker-deployment.yaml
+./k8s/ticket-api-deployment.yaml
+./k8s/ticket-checkout-service.yaml

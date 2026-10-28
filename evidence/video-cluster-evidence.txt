@@ -1,0 +1,25 @@
+=== NODES ===
+NAME                             STATUS   ROLES    AGE    VERSION                INTERNAL-IP      EXTERNAL-IP      OS-IMAGE                        KERNEL-VERSION                     CONTAINER-RUNTIME
+ip-192-168-26-55.ec2.internal    Ready    <none>   135m   v1.34.12-eks-577a51e   192.168.26.55    3.88.109.28      Amazon Linux 2023.12.20261026   6.12.113-138.209.amzn2023.x86_64   containerd://2.3.7+unknown
+ip-192-168-40-137.ec2.internal   Ready    <none>   135m   v1.34.12-eks-577a51e   192.168.40.137   100.30.185.190   Amazon Linux 2023.12.20261026   6.12.113-138.209.amzn2023.x86_64   containerd://2.3.7+unknown
+=== DEPLOYMENTS ===
+NAME              READY   UP-TO-DATE   AVAILABLE   AGE
+ticket-api        1/1     1            1           80m
+ticket-checkout   1/1     1            1           80m
+ticket-worker     3/3     3            3           80m
+=== SERVICES ===
+NAME              TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+kubernetes        ClusterIP   10.100.0.1       <none>        443/TCP          141m
+ticket-api        NodePort    10.100.201.143   <none>        8080:30080/TCP   81m
+ticket-checkout   ClusterIP   10.100.94.183    <none>        8080/TCP         81m
+=== PODS ===
+NAME                               READY   STATUS    RESTARTS   AGE   IP               NODE                             NOMINATED NODE   READINESS GATES
+ticket-api-88c45fc99-vg42n         1/1     Running   0          80m   192.168.39.48    ip-192-168-40-137.ec2.internal   <none>           <none>
+ticket-checkout-844569bcfb-j9bcd   1/1     Running   0          80m   192.168.1.59     ip-192-168-26-55.ec2.internal    <none>           <none>
+ticket-worker-5475f4d544-2l76b     1/1     Running   0          80m   192.168.56.225   ip-192-168-40-137.ec2.internal   <none>           <none>
+ticket-worker-5475f4d544-mbj6x     1/1     Running   0          68m   192.168.27.155   ip-192-168-26-55.ec2.internal    <none>           <none>
+ticket-worker-5475f4d544-qjtxx     1/1     Running   0          68m   192.168.51.69    ip-192-168-40-137.ec2.internal   <none>           <none>
+=== IMAGES ===
+ticket-api: 037826834406.dkr.ecr.us-east-1.amazonaws.com/ticket-api:latest 
+ticket-checkout: 037826834406.dkr.ecr.us-east-1.amazonaws.com/ticket-checkout:latest 
+ticket-worker: 037826834406.dkr.ecr.us-east-1.amazonaws.com/ticket-worker:latest 

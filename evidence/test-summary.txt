@@ -1,0 +1,22 @@
+CONCERTPASS LOAD TEST SUMMARY
+
+Basic reservation test:
+1 reservation created and later confirmed.
+
+Small load test:
+5 requests; 5 HTTP 202 responses; 0 transport errors.
+
+High-demand test:
+Concert: fontaines-dc-nyc
+Ticket type: vip
+Requests: 30
+Confirmed: 10
+Rejected: 20
+
+Scale test:
+Worker replicas: 3
+Concert: rex-orange-county-nyc
+Ticket type: vip
+Requests: 80
+Confirmed: 50
+Rejected: 30

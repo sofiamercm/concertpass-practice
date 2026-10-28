@@ -1,0 +1,17 @@
+{
+    "Name": "concerts",
+    "Status": "ACTIVE",
+    "Keys": [
+        {
+            "AttributeName": "concert_id",
+            "KeyType": "HASH"
+        }
+    ],
+    "Attributes": [
+        {
+            "AttributeName": "concert_id",
+            "AttributeType": "S"
+        }
+    ],
+    "Count": 4
+}

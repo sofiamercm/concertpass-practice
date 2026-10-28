@@ -1,0 +1,115 @@
+{
+    "Items": [
+        {
+            "concert_id": {
+                "S": "rex-orange-county-nyc"
+            },
+            "capacity": {
+                "M": {
+                    "floor": {
+                        "N": "100"
+                    },
+                    "general": {
+                        "N": "500"
+                    },
+                    "vip": {
+                        "N": "50"
+                    }
+                }
+            },
+            "date": {
+                "S": "2026-11-15"
+            },
+            "recinto": {
+                "S": "Terminal 5, New York, NY"
+            },
+            "name": {
+                "S": "Rex Orange County"
+            }
+        },
+        {
+            "recinto": {
+                "S": "Foro Sol, CDMX"
+            },
+            "date": {
+                "S": "2026-12-05"
+            },
+            "capacity": {
+                "M": {
+                    "floor": {
+                        "N": "20"
+                    },
+                    "general": {
+                        "N": "30"
+                    },
+                    "vip": {
+                        "N": "10"
+                    }
+                }
+            },
+            "concert_id": {
+                "S": "cafe-tacvba-cdmx"
+            },
+            "name": {
+                "S": "Cafe Tacvba - Gira Aniversario"
+            }
+        },
+        {
+            "concert_id": {
+                "S": "fontaines-dc-nyc"
+            },
+            "capacity": {
+                "M": {
+                    "floor": {
+                        "N": "30"
+                    },
+                    "general": {
+                        "N": "100"
+                    },
+                    "vip": {
+                        "N": "10"
+                    }
+                }
+            },
+            "date": {
+                "S": "2026-12-05"
+            },
+            "recinto": {
+                "S": "Brooklyn Steel, Brooklyn, NY"
+            },
+            "name": {
+                "S": "Fontaines D.C."
+            }
+        },
+        {
+            "capacity": {
+                "M": {
+                    "floor": {
+                        "N": "100"
+                    },
+                    "general": {
+                        "N": "500"
+                    },
+                    "vip": {
+                        "N": "50"
+                    }
+                }
+            },
+            "concert_id": {
+                "S": "bad-bunny-gdl"
+            },
+            "date": {
+                "S": "2026-11-15"
+            },
+            "recinto": {
+                "S": "Estadio Akron, GDL"
+            },
+            "name": {
+                "S": "Bad Bunny Debi tirar mas fotos"
+            }
+        }
+    ],
+    "Count": 4,
+    "ScannedCount": 4,
+    "ConsumedCapacity": null
+}
