@@ -1,4 +1,3 @@
-
 #!/usr/bin/env bash
 set -euo pipefail
 
@@ -61,6 +60,40 @@ aws dynamodb put-item \
         "floor": {"N": "30"},
         "vip": {"N": "10"},
         "general": {"N": "100"}
+      }
+    }
+  }'
+
+aws dynamodb put-item \
+  --table-name "$TABLE_NAME" \
+  --region "$AWS_REGION" \
+  --item '{
+    "concert_id": {"S": "cafe-tacvba-cdmx"},
+    "name": {"S": "Cafe Tacvba - Gira Aniversario"},
+    "date": {"S": "2026-12-05"},
+    "recinto": {"S": "Foro Sol, CDMX"},
+    "capacity": {
+      "M": {
+        "floor": {"N": "20"},
+        "vip": {"N": "10"},
+        "general": {"N": "30"}
+      }
+    }
+  }'
+
+aws dynamodb put-item \
+  --table-name "$TABLE_NAME" \
+  --region "$AWS_REGION" \
+  --item '{
+    "concert_id": {"S": "bad-bunny-gdl"},
+    "name": {"S": "Bad Bunny Debi tirar mas fotos"},
+    "date": {"S": "2026-11-15"},
+    "recinto": {"S": "Estadio Akron, GDL"},
+    "capacity": {
+      "M": {
+        "floor": {"N": "100"},
+        "vip": {"N": "50"},
+        "general": {"N": "500"}
       }
     }
   }'
